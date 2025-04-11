@@ -1,3 +1,84 @@
+# Note et Idea
+---
+<br>
+
+- **homeopathy**
+- **nutriton**
+- **physical exercise**
+- **meditation yoga**
+- ** **
+- ** **
+
+
+
+## Sources:
+
+https://www.lovethegarden.com/uk-en/article/plants-benefits
+
+https://leroutardresistant.com/wp-content/uploads/2022/03/remedes-naturels-maison.pdf
+
+https://gomedica.org/remedes-naturels-guide/#78_remedes_naturels_pour_les_maux_de_tous_les_jours_Un_guide_de_guerison_holistique
+
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---
+---
+---
+---
+---
+---
+---
+
 to keep history
 
 from google import genai
