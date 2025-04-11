@@ -3,6 +3,8 @@ from streamlit_chat import message
 from google import genai
 from google.genai import types
 import json
+from langchain.chains import RetrievalQA
+from model.model import model
 
 
 
@@ -26,7 +28,7 @@ def gen_answer():
 def translate(text, lang_code):
     return text
 
-
+qa_chain = model()
 
 st.set_page_config(page_title="Gemini Chatbot", layout="wide", page_icon='⚕️')
 
@@ -60,7 +62,7 @@ query = st.chat_input("Type your question here...", key="query")
 
 if query:
     with st.spinner("Finding the answer..."):
-        answer = gen_answer()
+        answer = qa_chain.run(query)
         st.session_state.history.append({"query": query, "answer": answer})
         message(query, is_user=True, key=f"user_{query}")
         message(answer, is_user=False, key=f"bot_{answer}")

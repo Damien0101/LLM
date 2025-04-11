@@ -1,0 +1,17 @@
+_type: retrieval_qa
+combine_documents_chain:
+  input_key: input_documents
+  memory: null
+  metadata: null
+  name: null
+  output_key: output_text
+  tags: null
+  verbose: false
+input_key: query
+memory: null
+metadata: null
+name: null
+output_key: result
+return_source_documents: false
+tags: null
+verbose: false
